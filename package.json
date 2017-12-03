@@ -1,0 +1,21 @@
+{
+  "name": "babel-learn",
+  "version": "1.0.0",
+  "description": "learn to babel",
+  "main": "index.js",
+  "license": "MIT",
+  "script": {
+    "dev": "webpack"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "next",
+    "@babel/preset-env": "next",
+    "babel-loader": "8.0.0-beta.0",
+    "babel-polyfill": "^6.26.0",
+    "clean-webpack-plugin": "^0.1.17",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  }
+}
